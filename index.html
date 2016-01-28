@@ -39,7 +39,7 @@
 						<li><a href="https://github.com/AjayAujla/"><i class="fa fa-lg fa-github"></i></a></li>
 						<li><a href="https://linkedin.com/in/AjayAujla/"><i class="fa fa-lg fa-linkedin"></i></a></li>
 						<li><a href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
-						<li><a href="#"><i class="fa fa-lg fa-file-text"></i></a></li>
+						<li><a href="#" class="disabled"><i class="fa fa-lg fa-file-text"></i></a></li>
 					</ul>
 
 				</div>
@@ -82,19 +82,28 @@
                     	<a href="mailto:ajay.aujla@hotmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope"></i><span class="network-name"> Email</a>
                     </li>
                     <li>
-						<a href="#" class="btn btn-default btn-lg"><i class="fa fa-file-text"></i><span class="network-name"> Resum&#233</a></li>
+						<a href="#" class="btn btn-default btn-lg disabled"><i class="fa fa-file-text"></i><span class="network-name"> Resum&#233</a></li>
                     </li>
                 </ul>
 
-                <!--
-				<div class="form-group">
-					<input type="text" placeholder="Enter Name">
-					<input type="text" placeholder="Enter Email Address">
-					<input type="text" placeholder="Enter Subject">
-					<input type="textarea" placeholder="Enter Message">
+                <div class="row">
+                	<div class="col-md-3">
+						<div class="input-group">
+							<span class="input-group-addon" id="contact-form-email">Email</span>
+							<input type="text" class="form-control" placeholder="ajay.aujla@hotmail.com" aria-describedby="contact-form-email">
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="input-group">
+							<span class="input-group-addon" id="contact-form-message">Message</span>
+							<input type="text" class="form-control" placeholder="Hello from the other side" aria-describedby="contact-form-message">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Send Email</button>
+							</span>
+						</div>
+					</div>
 				</div>
-				-->
-
+			
 			</div>
 		</div>
 
