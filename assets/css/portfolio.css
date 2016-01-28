@@ -1,24 +1,30 @@
 .btn-circle {
-			  width: 30px;
-			  height: 30px;
-			  text-align: center;
-			  padding: 6px 0;
-			  font-size: 12px;
-			  line-height: 1.428571429;
-			  border-radius: 15px;
-			}
+	line-height: 1.428571429;
+	border-radius: 50px;
+}
+
+/*
+nav-brand to center
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+*/
 /*
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #777;
 }
+.social .fa-github:hover {
+    color: #343434;
+}
 
 .social .fa-linkedin:hover {
     color: #0077B5;
-}
-
-.social .fa-github:hover {
-    color: #000000;
 }
 
 .social .fa-envelope:hover {
