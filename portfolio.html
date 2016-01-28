@@ -5,20 +5,113 @@
 	
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<style type="text/css">
+
+			.btn-circle {
+			  width: 30px;
+			  height: 30px;
+			  text-align: center;
+			  padding: 6px 0;
+			  font-size: 12px;
+			  line-height: 1.42;
+			  border-radius: 15px;
+			}
+
+		</style>
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="page-header">
-				<h1>Ajay Aujla</h1>
-			</div>		
-			<div class="jumbotron">
-				<p>Profile</p>
-				<div class="btn-group btn-group-lg">
-					<a class="btn btn-info btn-lg" href="http://github.com/AjayAujla/"><i class="fa fa-github"></i> GitHub</a>
-					<a class="btn btn-primary btn-lg" href="http://linkedin.com/in/AjayAujla/"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><span><img alt="" src="A.png" style="width:30px;height:30px;"></img> Ajay Aujla</span></a>
+				</div>
+
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#education">Education</a></li>
+						<li><a href="#career">Career</a></li>
+						<li><a href="#projects">Projects</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+
+
+		<div class="container">
+		
+			<div>
+				<!--<i class="fa fa-graduation-cap"></i>	Soon to Graduate-->
+				<!--<i class="fa fa-file-text"></i>			Resume-->
+				<!--<i class="fa fa-book"></i> 				Reading-->
+				<!--<i class="fa fa-bed"></i>				Sleeping-->
+				<!--<i class="fa fa-bicycle"></i>			Biking-->
+				<!--<i class="fa fa-android"></i>			Android-->
+
+				<!-- 
+					Montreal, Quebec, Canada
+					Concordia University
+					Software Engineering
+					Computer Games Option
+				-->
+
+				<!--
+				<div id="contact-information" class="btn-group-lg">
+					<a class="btn btn-info btn-lg" href="http://github.com/AjayAujla/"><i class="fa fa-github-square"></i> GitHub</a>
+					<a class="btn btn-primary btn-lg" href=""><i class="fa fa-linkedin-square"></i> LinkedIn</a>
 					<a class="btn btn-info btn-lg" href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-envelope"></i> Email</a>
 				</div>
+				-->
+
+				<ul class="list-inline intro-social-buttons">
+                    <li>
+                        <a href="https://github.com/AjayAujla/" class="btn btn-default btn-lg"><i class="fa fa-github-square fa-fw"></i><span class="network-name"> GitHub</span></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/AjayAujla/" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i><span class="network-name"> LinkedIn</span></a>
+                    </li>
+                    <li>
+                    	<a href="mailto:ajay.aujla@hotmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope"></i><span class="network-name"> Email</a>
+                    </li>
+                </ul>
+
+                <!--
+				<div class="form-group">
+					<input type="text" placeholder="Enter Name">
+					<input type="text" placeholder="Enter Email Address">
+					<input type="text" placeholder="Enter Subject">
+					<input type="textarea" placeholder="Enter Message">
+				</div>
+				-->
+
 			</div>
 		</div>
+
+		<!--
+		<?php
+			$senderName = $_POST["name"];
+			$senderEmail = $_POST["email"];
+			$senderSubject = $_POST["subject"];
+			$senderMessage = $_POST["message"];
+			$recipientEmail = "ajay.aujla@hotmail.com";
+
+			$success = mail($recipientEmail, $senderSubject, $senderBody, $senderEmail);
+			if($success) {
+				echo "success";
+			} else {
+				echo "invalid";
+			}
+		?>
+		-->
+
 	</body>
 </html>
