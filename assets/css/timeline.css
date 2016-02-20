@@ -124,6 +124,14 @@
     background-color: #f0ad4e !important;
 }
 
+.timeline-badge.quaternary {
+    background-color: #d9534f !important;
+}
+
+.timeline-badge.quinary {
+    background-color: #5bc0de !important;
+}
+
 /*
 .timeline-badge:hover {
     color: #5bc0de !important;
