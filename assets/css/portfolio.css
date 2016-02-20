@@ -1,13 +1,25 @@
+body {
+    color: #fff !important;
+    background-color: #222 !important;
+    border-color: #080808 !important;
+}
+/*
 .bg-navbar-style {
     color: #fff;
     background-color: #222;
     border-color: #080808;
 }
-
+*/
 .text-vertical-center {
     text-align: center;
     vertical-align: middle;
 }
+
+.thumbnail {
+     border:none !important;
+     background: transparent !important;
+     box-shadow:none !important;
+  }
 /*
 .btn-circle {
 	line-height: 1.428571429;
