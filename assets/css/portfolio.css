@@ -1,8 +1,36 @@
-body {
-    color: #fff !important;
-    background-color: #222 !important;
-    border-color: #080808 !important;
+/*
+black: 222222
+blue: 0087FF, 0099FF, 0062FF, 0087C8
+https://coolors.co/app/2a9cbf-222222-cc8347-edd5a3-f9ddd4
+*/
+.navbar {
+	margin-bottom: 0px !important;
 }
+
+.introduction {
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+.section {
+	margin-top: 50px;
+}
+
+.timeline {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+body {
+	color: #fff !important;
+	background-color: #222 !important;
+	border-color: #080808 !important;
+}
+header {
+	background-image: url('../images/ceystalhorizon.png');
+	background-size: cover;
+}
+
 /*
 .bg-navbar-style {
     color: #fff;
@@ -11,32 +39,21 @@ body {
 }
 */
 .text-vertical-center {
-    text-align: center;
-    vertical-align: middle;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .thumbnail {
-     border:none !important;
-     background: transparent !important;
-     box-shadow:none !important;
+	/*width: 100px;*/
+	border:none !important;
+	background: transparent !important;
+	box-shadow:none !important;
 }
 
 /*
 .btn-circle {
 	line-height: 1.428571429;
 	border-radius: 50px;
-}
-*/
-
-/*
-nav-brand to center
-.navbar-brand
-{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin: auto;
 }
 */
 
