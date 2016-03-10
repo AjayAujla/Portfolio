@@ -1,46 +1,17 @@
 /*
-navbar light grey: #9d9d9d
-navbar black: 222222
-accent blue: 0087FF, 0099FF, 0062FF, 0087C8
 https://coolors.co/app/2a9cbf-222222-cc8347-edd5a3-f9ddd4
 
-
 $grey: #9d9d9d;
-$white: #fff;
-$black: #222;
+$white: #ffffff;
+$black: #222222;
 $blue1: #0087FF;
 $blue2: #0099FF;
 $blue3: #0062FF;
 $blue4: #0087C8;
-
 */
 
 .navbar {
 	margin-bottom: 0px !important;
-}
-
-.introduction {
-	padding-top: 150px;
-	padding-bottom: 200px;
-}
-
-.section {
-	margin-top: 50px;
-}
-
-.timeline {
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
-body {
-	color: #fff !important;
-	background-color: #222 !important;
-	border-color: #080808 !important;
-}
-header {
-	background-image: url('../images/ceystalhorizon.png');
-	background-size: cover;
 }
 
 /*
@@ -48,44 +19,6 @@ header {
     color: #fff;
     background-color: #222;
     border-color: #080808;
-}
-*/
-.text-vertical-center {
-	text-align: center;
-	vertical-align: middle;
-}
-
-.thumbnail {
-	/*width: 100px;*/
-	border:none !important;
-	background: transparent !important;
-	box-shadow:none !important;
-}
-
-.introduction .img-circle {
-	max-width: 200px;
-	border: 3px solid white;
-    border-radius: 50%;
-}
-
-.social-buttons a {
-	color: #9d9d9d;
-	display: block;
-    background-color: #222222;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    line-height: 40px;
-}
-
-.social-buttons a:focus, a:hover {
-	color:#fff !important;
-}
-
-/*
-.btn-circle {
-	line-height: 1.428571429;
-	border-radius: 50px;
 }
 */
 
@@ -110,3 +43,72 @@ header {
     color: #e64522;
 }
 */
+
+header {
+	background-image: url('../images/ceystalhorizon.png');
+	background-size: cover;
+}
+
+body {
+	color: #fff !important;
+	background-color: #222 !important;
+	border-color: #080808 !important;
+}
+
+.introduction {
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+.introduction h1 {
+	font-size: 4em;
+}
+
+.introduction #social {
+	padding-top: 25px;
+}
+
+.introduction .img-circle {
+	max-width: 200px;
+	border-radius: 50%;
+}
+
+.social-buttons a {
+	color: #9d9d9d;
+	display: block;
+	background-color: #222222;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	line-height: 40px;
+}
+
+.social-buttons a:focus, a:hover {
+	color:#fff !important;
+}
+
+.section {
+	margin-top: 50px;
+}
+
+.section h2 {
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+
+.timeline {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.text-vertical-center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.thumbnail {
+	/*width: 100px;*/
+	border:none !important;
+	background: transparent !important;
+	box-shadow:none !important;
+}
