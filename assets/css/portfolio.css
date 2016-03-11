@@ -14,6 +14,12 @@ $blue4: #0087C8;
 	margin-bottom: 0px !important;
 }
 
+.navbar.navbar-inverse.navbar-static-top {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+
 /*
 .bg-navbar-style {
     color: #fff;
