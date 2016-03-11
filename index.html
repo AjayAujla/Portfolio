@@ -18,7 +18,7 @@
 		<div class="container">
 
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#" data-target="#carousel" data-slide-to="0"><span><!--<img alt src="assets/images/A.png" style="width:30px;height:30px;"></img> -->Ajay Aujla</span></a>
+				<a class="navbar-brand" href="#" data-target="#carousel-vertical" data-slide-to="0"><span><!--<img alt src="assets/images/A.png"></img> -->Ajay Aujla</span></a>
 				
 				<!-- Navigation Menu Button -->
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,9 +33,9 @@
 
 				<!-- Menu Items -->
 				<ul class="nav navbar-nav">
-					<li><a href="#education" data-target="#carousel" data-slide-to="1">Education</a></li>
-					<li><a href="#career" data-target="#carousel" data-slide-to="2">Career</a></li>
-					<li><a href="#projects" data-target="#carousel" data-slide-to="3">Projects</a></li>
+					<li><a href="#education" data-target="#carousel-vertical" data-slide-to="1">Education</a></li>
+					<li><a href="#career" data-target="#carousel-vertical" data-slide-to="2">Career</a></li>
+					<li><a href="#projects" data-target="#carousel-vertical" data-slide-to="3">Projects</a></li>
 				</ul>
 
 				<!-- Social -->
@@ -51,16 +51,8 @@
 	</nav>
 
 	<!-- Header -->
-	<header id="carousel" class="carousel slide">
-		<div id="top" class="header-content introduction">
-
-			<ol class="carousel-indicators">
-				<li data-target="#carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel" data-slide-to="1"></li>
-				<li data-target="#carousel" data-slide-to="2"></li>
-				<li data-target="#carousel" data-slide-to="3"></li>
-				<li data-target="#carousel" data-slide-to="4"></li>
-			</ol>
+	<header>
+		<div id="carousel-vertical" class="carousel vertical slide header-content introduction">
 
 			<div class="carousel-inner">
 
@@ -70,7 +62,7 @@
 						<div class="text-vertical-center">
 
 							<div class="container">
-								<img src="assets/images/A-222222.png" class="img-circle" alt>
+								<img src="https://avatars1.githubusercontent.com/u/6827852" class="img-circle" alt>
 
 								<h1>Ajay Aujla</h1>
 								<h3>Developer &middot; Student &middot; Kaliya</h3>
@@ -85,6 +77,8 @@
 										<li><a href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
 									</ul>
 								</div>
+
+								<a href="#" data-target="#carousel-vertical" data-slide-to="1"><i class="fa fa-chevron-down"></i></a>
 
 							</div>
 
@@ -354,12 +348,23 @@
 						</div>
 					</section>
 
-
 				</div>
 			</div>
 
-			<a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a>
-			<a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a>
+			<div class="carousel-vertical-controls">
+				<!--<a class="up left carousel-control" href="#carousel-vertical" data-slide="prev"><i class="fa fa-chevron-up"></i></a>-->
+				
+				<ul class="carousel-indicators">
+					<li data-target="#carousel-vertical" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-vertical" data-slide-to="1"></li>
+					<li data-target="#carousel-vertical" data-slide-to="2"></li>
+					<li data-target="#carousel-vertical" data-slide-to="3"></li>
+					<li data-target="#carousel-vertical" data-slide-to="4"></li>
+				</ul>
+
+				<!--<a class="down right carousel-control" href="#carousel-vertical" data-slide="next"><i class="fa fa-chevron-down"></i></a>-->	
+			</div>
+
 
 		</div>
 	</header>
