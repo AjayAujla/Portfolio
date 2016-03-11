@@ -15,40 +15,9 @@ $blue4: #0087C8;
 }
 
 .navbar.navbar-inverse.navbar-static-top {
-    background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+	background-color: transparent;
+	border-color: rgba(255, 255, 255, 0.3);
 }
-
-
-/*
-.bg-navbar-style {
-    color: #fff;
-    background-color: #222;
-    border-color: #080808;
-}
-*/
-
-/*
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #777;
-}
-.social .fa-github:hover {
-    color: #343434;
-}
-
-.social .fa-linkedin:hover {
-    color: #0077B5;
-}
-
-.social .fa-envelope:hover {
-    color: #00ABE3;
-}
-
-.social .fa-file-text:hover {
-    color: #e64522;
-}
-*/
 
 header {
 	background-image: url('../images/ceystalhorizon.png');
@@ -59,11 +28,15 @@ body {
 	color: #fff !important;
 	background-color: #222 !important;
 	border-color: #080808 !important;
+	font-family: 'Quicksand', sans-serif !important;
 }
 
-.introduction {
+#profile {
 	padding-top: 150px;
-	padding-bottom: 200px;
+}
+
+.item {
+	padding-bottom: 100px;
 }
 
 .introduction h1 {
@@ -91,10 +64,6 @@ body {
 
 .social-buttons a:focus, a:hover {
 	color:#fff !important;
-}
-
-.section {
-	margin-top: 50px;
 }
 
 .section h2 {
