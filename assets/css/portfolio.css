@@ -103,7 +103,7 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 	padding: 25px;	
 }
 
-
+/*
 .carousel.vertical .carousel-inner {
 	height: 100%;
 }
@@ -127,6 +127,7 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 .carousel.vertical .prev, .carousel.vertical .active.left   { 
 	top: -100%;
 }
+*/
 
 /*
 .carousel-indicators {
