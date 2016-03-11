@@ -47,7 +47,7 @@ body {
 }
 
 .social-buttons a {
-	color: #9d9d9d;
+	color: #ffffff;
 	display: block;
 	background-color: #222222;
 	height: 40px;
@@ -57,7 +57,7 @@ body {
 }
 
 .social-buttons a:focus, a:hover {
-	color:#ffffff !important;
+	color:#9d9d9d !important;
 }
 
 a .fa-chevron-down {
@@ -77,6 +77,10 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 .timeline {
 	margin-left: 25px;
 	margin-right: 25px;
+}
+
+.timeline .timeline-badge {
+	background-color: #222222 !important;
 }
 
 .text-vertical-center {
