@@ -56,8 +56,10 @@ body {
 	line-height: 40px;
 }
 
-.social-buttons a:focus, a:hover {
+.social-buttons a:focus, a:hover i {
 	color:#9d9d9d !important;
+	transform: scale(1.25);
+	transition: transform .5s ease-in-out; 
 }
 
 a .fa-chevron-down {
