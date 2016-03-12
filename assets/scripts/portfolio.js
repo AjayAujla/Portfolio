@@ -22,6 +22,18 @@ $(function() {
 	});
 });
 
+$(window).load(function() {
+	$('.flexslider').flexslider({
+		animation: "slide",
+		animationLoop: true,
+		direction: "horizontal",
+		controlNav: true,
+		directionNav: true,
+		keyboard: true,
+		slideshow: false
+	});
+});
+
 /*
 $(function() {
 	$.scrollify({

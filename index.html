@@ -4,14 +4,15 @@
 	<title>Ajay Aujla</title>
 
 	<!-- Stylesheets -->
-	<link href="assets/css/portfolio.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/timeline.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link href="assets/css/portfolio.css" type="text/css" rel="stylesheet"/>
+	<link href="assets/css/timeline.css" type="text/css" rel="stylesheet"/>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" type="text/css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.min.css" type="text/css" rel="stylesheet">
 
 </head>
-<body id="top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
+<body id="top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 	<!-- Navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent">
@@ -52,37 +53,36 @@
 
 	<!-- Profile -->
 	<section id="profile">
-		<div class="section" data-section-name="section-name1">
+		<div class="section">
 			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<img src="https://avatars1.githubusercontent.com/u/6827852" class="img-circle" alt>
 
-				<div class="text-vertical-center">
-					<img src="https://avatars1.githubusercontent.com/u/6827852" class="img-circle" alt>
+						<h1>Ajay Aujla</h1>
+						<h3>Developer &middot; Student &middot; Kaliya</h3>
 
-					<h1>Ajay Aujla</h1>
-					<h3>Developer &middot; Student &middot; Kaliya</h3>
+						<!-- TODO: add GitHub language usage stats -->
 
-					<!-- TODO: add GitHub language usage stats -->
+						<!-- Social -->
+						<div id="social">
+							<ul class="list-inline social-buttons">
+								<li><a href="https://github.com/AjayAujla/" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+								<li><a href="https://linkedin.com/in/AjayAujla/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+								<li><a href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+							</ul>
+						</div>
 
-					<!-- Social -->
-					<div id="social">
-						<ul class="list-inline social-buttons">
-							<li><a href="https://github.com/AjayAujla/" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
-							<li><a href="https://linkedin.com/in/AjayAujla/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-							<li><a href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
-						</ul>
+						<a class="page-scroll" href="#education"><i class="fa fa-chevron-down"></i></a>
 					</div>
-
-					<!--<a class="page-scroll" href="#education"><i class="fa fa-chevron-down"></i></a>-->
-
 				</div>
-
 			</div>
 		</div>
 	</section>
 
 	<!-- Education -->
 	<section id="education">
-		<div class="section" data-section-name="section-name2">
+		<div class="section">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-12">
@@ -136,7 +136,7 @@
 
 	<!-- Career -->
 	<section id="career">
-		<div class="section" data-section-name="section-name3">
+		<div class="section">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-12">
@@ -191,97 +191,59 @@
 
 	<!-- Projects -->
 	<section id="projects">
-		<div class="section" data-section-name="section-name4">
+		<div class="section">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-12">
 						<h1>Projects</h1>
 
-						<div class="row">
 
-							<!--	xs:	12/12 width, 1 column, -->
-							<!--	sm:	6/12 width, 2 columns, -->
-							<!--	md:	6/12 width, 2 columns, -->
-							<!--	lg:	4/12 width, 3 columns, -->
+						<div class="flexslider">
+							<ul class="slides">
 
-							<!-- 1 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/mchacks-2016-logo-2.png" alt></a>
-									<h4>McHacks 2016</h4>
-									<!--<i class="fa fa-desktop"></i>-->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/mchacks-2016-logo-2.png" alt>
+									<h3>McHacks 2016</h3>
+								</li>
 
-							<!-- 2 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/conuhacks-2016-logo-transparent.png" alt></a>
-									<h4>ConUHacks 2016</h4>
-									<!--<i class="fa fa-desktop"></i> <i class="fa fa-mobile"></i> <i class="fa fa-gamepad"></i>-->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/conuhacks-2016-logo-transparent.png" alt>
+									<h3>ConUHacks 2016</h3>
+								</li>
 
-							<!-- 3 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/unity-logo.png" alt></a>
-									<h4>Soul Food</h4>
-									<!--<i class="fa fa-desktop"></i> <i class="fa fa-gamepad"></i>-->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/unity-logo.png" alt>
+									<h3>Soul Food</h3>
+								</li>
 
-							<!-- 4 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/android-robot.png" alt></a>
-									<h4>Grade Calculator</h4>
-									<!--<i class="fa fa-mobile"></i>-->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/android-robot.png" alt>
+									<h3>Grade Calculator</h3>
+								</li>
 
-							<!-- 5 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/android-robot.png" alt></a>
-									<h4>Tutoring Service</h4>
-									<!--<i class="fa fa-desktop"></i> <i class="fa fa-mobile"></i> -->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/android-robot.png" alt>
+									<h3>Tutoring Service</h3>
+								</li>
 
-							<!-- 6 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/unity-logo.png" alt></a>
-									<h4>Hungover</h4>
-									<!--<i class="fa fa-desktop"></i> <i class="fa fa-gamepad"></i>-->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/unity-logo.png" alt>
+									<h3>Hungover</h3>
+								</li>
 
-							<!-- 7 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/xamarin-logo.png" alt></a>
-									<h4>CocoMaps</h4>
-									<!--<i class="fa fa-mobile"></i>-->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/xamarin-logo.png" alt>
+									<h3>CocoMaps</h3>
+								</li>
 
-							<!-- 8 -->
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-								<div class="thumbnail">
-									<a href="#"><img src="assets/images/cpp-logo.png" alt></a>
-									<h4>Cats vs. Dogs</h4>
-									<!--<i class="fa fa-desktop"></i> <i class="fa fa-gamepad"></i> -->
-								</div>
-							</div>
+								<li>
+									<img src="assets/images/cpp-logo.png" alt>
+									<h3>Cats vs. Dogs</h3>
+								</li>
 
-							<!-- 9 -->
-							<!-- 10 -->
-							<!-- 11 -->
-							<!-- 12 -->
-
+							</ul>
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -294,7 +256,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/0.1.12/jquery.scrollify.js"></script>
-	<script type="text/javascript" src="assets/scripts/portfolio.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.min.js"></script>
 
+	<script src="assets/scripts/portfolio.js" type="text/javascript"></script>
+	
 </body>
 </html>

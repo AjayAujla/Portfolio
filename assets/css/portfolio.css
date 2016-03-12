@@ -63,12 +63,12 @@ body {
 }
 
 a .fa-chevron-down {
-	color: #0087C8;
+	color: #222222;
 	font-size: 3em;
 }
 
 a .fa-chevron-down:focus, a .fa-chevron-down:hover {
-	color:#fff !important;
+	color:#9d9d9d !important;
 }
 
 .section {
@@ -94,60 +94,6 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 	text-align: center;
 	vertical-align: middle;
 }
-
-.thumbnail {
-	border:none !important;
-	background: transparent !important;
-	box-shadow:none !important;
-}
-
-.thumbnail img {
-	max-width: 300px;
-	max-height: 300px;
-	padding: 25px;	
-}
-
-.carousel-indicators {
-	position: absolute !important;
-	top: 50% !important;
-	margin: 0 !important;
-	left: 98% !important;
-	width:0px !important;
-}
-
-.carousel.vertical .carousel-inner {
-	height: 100%;
-}
-
-.carousel.vertical .item {
-	-webkit-transition: 0.6s ease-in-out top;
-	-moz-transition: 0.6s ease-in-out top;
-	-ms-transition: 0.6s ease-in-out top;
-	-o-transition: 0.6s ease-in-out top;
-	left: 0;
-}
-
-.carousel.vertical .active, .carousel.vertical .next.left, .carousel.vertical .prev.right { 
-	top: 0;
-}
-
-.carousel.vertical .next, .carousel.vertical .active.right  {
-	top: 100%;
-}
-
-.carousel.vertical .prev, .carousel.vertical .active.left   { 
-	top: -100%;
-}
-
-/*
-.carousel-indicators {
-	position: absolute;
-	top: 50%;
-	right: 0;
-	margin-right: 5%;
-	text-align: right !important;
-}
-*/
 
 @media(min-width:767px) {
 	.navbar {
@@ -175,4 +121,39 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 
 .navbar a:hover, a:focus {
 	color: #9d9d9d !important;
+}
+
+
+.flexslider {
+	border:none !important;
+	box-shadow:none !important;
+	background: transparent !important;
+	border-width: 0px !important;
+	width:100%
+}
+
+.flexslider img {
+	max-width: 300px;
+	max-height: 300px;
+	padding: 25px;
+}
+
+.flexslider .slides img {
+	display: inline-block !important;
+}
+
+.flex-control-paging li a {
+	background: #222222 !important;
+}
+
+.flex-control-paging li a.flex-active {
+	background: #ffffff !important;
+}
+
+.flex-prev, .flex-next {
+	color: #222222 !important;
+}
+
+.flex-direction-nav a {
+	height: 50px !important;
 }
