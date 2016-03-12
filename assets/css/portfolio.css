@@ -21,12 +21,17 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	color: #fff !important;
+	color: #ffffff !important;
 	font-family: 'Quicksand', sans-serif !important;
 }
 
 #profile {
 	padding-top: 125px;
+}
+
+#profile .img-circle {
+	max-width: 200px;
+	border-radius: 50%;
 }
 
 .item {
@@ -39,11 +44,6 @@ body {
 
 .introduction #social {
 	padding-top: 25px;
-}
-
-.introduction .img-circle {
-	max-width: 200px;
-	border-radius: 50%;
 }
 
 .social-buttons a {
@@ -67,6 +67,10 @@ a .fa-chevron-down {
 
 a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 	color:#fff !important;
+}
+
+.section {
+	//padding-top: 50px;
 }
 
 .section h1 {
@@ -141,3 +145,31 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 	text-align: right !important;
 }
 */
+
+@media(min-width:767px) {
+	.navbar {
+		padding: 15px 0;
+		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
+
+	.top-nav-collapse {
+		padding: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-transparent {
+		background-color: transparent !important;
+		border-color: transparent !important;
+	}
+}
+
+.navbar a {
+	color: #ffffff !important;
+}
+
+.navbar a:hover, a:focus {
+	color: #9d9d9d !important;
+}
