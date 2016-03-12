@@ -21,3 +21,12 @@ $(function() {
 		event.preventDefault();
 	});
 });
+
+/*
+$(function() {
+	$.scrollify({
+		section: ".section",
+		scrollbars: false,
+	});
+});
+*/
