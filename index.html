@@ -10,16 +10,17 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" type="text/css" rel="stylesheet"/>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.min.css" type="text/css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.css" type="text/css" rel="stylesheet">
 
 </head>
-<body id="top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body data-target=".navbar-fixed-top">
 
 	<!-- Navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent">
 		<div class="container">
 
 			<div class="navbar-header">
-				<a class="navbar-brand page-scroll" href="#top"><span>Ajay Aujla</span></a>
+				<a class="navbar-brand" href="#profile"><span>Ajay Aujla</span></a>
 				
 				<!-- Navigation Menu Button -->
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,16 +35,15 @@
 
 				<!-- Menu Items -->
 				<ul class="nav navbar-nav">
-					<li><a class="page-scroll" href="#education">Education</a></li>
-					<li><a class="page-scroll" href="#career">Career</a></li>
-					<li><a class="page-scroll" href="#projects">Projects</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#career">Career</a></li>
+					<li><a href="#projects">Projects</a></li>
 				</ul>
 
 				<!-- Social -->
 				<ul class="nav navbar-nav navbar-right navbar-social">
 					<li><a href="https://github.com/AjayAujla/" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
 					<li><a href="https://linkedin.com/in/AjayAujla/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-					<li><a href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
 				</ul>
 
 			</div>
@@ -51,214 +51,216 @@
 		</div>
 	</nav>
 
-	<!-- Profile -->
-	<section id="profile">
+	<div id="fullpage">
+
+		<!-- Profile -->
 		<div class="section">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-12">
-						<img src="https://avatars1.githubusercontent.com/u/6827852" class="img-circle" alt>
+			<section id="profile">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12">
+							<img src="https://avatars1.githubusercontent.com/u/6827852" class="img-circle" alt>
 
-						<h1>Ajay Aujla</h1>
-						<h3>Developer &middot; Student &middot; Kaliya</h3>
+							<h1>Ajay Aujla</h1>
+							<h3>Developer &middot; Student &middot; Kaliya</h3>
 
-						<!-- TODO: add GitHub language usage stats -->
+							<!-- TODO: add GitHub language usage stats -->
 
-						<!-- Social -->
-						<div id="social">
-							<ul class="list-inline social-buttons">
-								<li><a href="https://github.com/AjayAujla/" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
-								<li><a href="https://linkedin.com/in/AjayAujla/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-								<li><a href="mailto:ajay.aujla@hotmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
-							</ul>
+							<!-- Social -->
+							<div id="social">
+								<ul class="list-inline social-buttons">
+									<li><a href="https://github.com/AjayAujla/" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+									<li><a href="https://linkedin.com/in/AjayAujla/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+
+							<a href="#education"><i class="fa fa-chevron-down"></i></a>
 						</div>
-
-						<a class="page-scroll" href="#education"><i class="fa fa-chevron-down"></i></a>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-	</section>
 
-	<!-- Education -->
-	<section id="education">
+		<!-- Education -->
 		<div class="section">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-12">
-						<h1>Education</h1>
+			<section>
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12">
+							<h1>Education</h1>
 
-						<div class="row">
-							<ul class="timeline">
+							<div class="row">
+								<ul class="timeline">
 
-								<!-- Concordia University -->
-								<li>
-									<div class="timeline-badge"><i class="fa fa-university"></i></div>
-									<div class="timeline-panel">
-										<div class="timeline-heading">
-											<h3 class="timeline-title">Concordia University</h3>
-											<hr>
+									<!-- Concordia University -->
+									<li>
+										<div class="timeline-badge"><i class="fa fa-university"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Concordia University</h3>
+												<hr>
+											</div>
+											<div class="timeline-body">
+												<h4>Software Engineering</h4>
+												<p><i class="fa fa-book"></i> Computer Games Specialization</p>
+												<p><i class="fa fa-clock-o"></i> September 2012 - April 2016</p>
+												<p><i class="fa fa-map-marker"></i> Montreal, Quebec</p>
+											</div>
 										</div>
-										<div class="timeline-body">
-											<h4>Software Engineering</h4>
-											<p><i class="fa fa-book"></i> Computer Games Specialization</p>
-											<p><i class="fa fa-clock-o"></i> September 2012 - April 2016</p>
-											<p><i class="fa fa-map-marker"></i> Montreal, Quebec</p>
-										</div>
-									</div>
-								</li>
+									</li>
 
-								<!-- Marianopolis College -->
-								<li class="timeline-inverted">
-									<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
-									<div class="timeline-panel">
-										<div class="timeline-heading">
-											<h3 class="timeline-title">Marianopolis College</h3>
-											<hr>
+									<!-- Marianopolis College -->
+									<li class="timeline-inverted">
+										<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Marianopolis College</h3>
+												<hr>
+											</div>
+											<div class="timeline-body">
+												<h4>Pure and Applied Sciences</h4>
+												<p><i class="fa fa-clock-o"></i> August 2010 - June 2012</p>
+												<p><i class="fa fa-map-marker"></i> Westmount, Quebec</p>
+											</div>
 										</div>
-										<div class="timeline-body">
-											<h4>Pure and Applied Sciences</h4>
-											<p><i class="fa fa-clock-o"></i> August 2010 - June 2012</p>
-											<p><i class="fa fa-map-marker"></i> Westmount, Quebec</p>
-										</div>
-									</div>
-								</li>
+									</li>
 
-							</ul>
+								</ul>
+							</div>
+
 						</div>
-
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-	</section>
 
 
-	<!-- Career -->
-	<section id="career">
+		<!-- Career -->
 		<div class="section">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-12">
-						<h1>Career</h1>
+			<section>
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12">
+							<h1>Career</h1>
 
-						<div class="row">
-							<ul class="timeline">
+							<div class="row">
+								<ul class="timeline">
 
-								<!-- Autodesk -->
-								<li>
-									<div class="timeline-badge"><i class="fa fa-code"></i></div>
-									<div class="timeline-panel">
-										<div class="timeline-heading">
-											<h3 class="timeline-title">Autodesk</h3>
-											<hr>
+									<!-- Autodesk -->
+									<li>
+										<div class="timeline-badge"><i class="fa fa-code"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Autodesk</h3>
+												<hr>
+											</div>
+											<div class="timeline-body">
+												<h4>Web Software Developer Intern</h4>
+												<p><i class="fa fa-file-code-o"></i> JSP, Adobe Experience Manager, IntelliJ IDEA, JIRA, Crucible, Maven, Git, BitBucket</p>
+												<p><i class="fa fa-clock-o"></i> May 2014 - August 2014</p>
+												<p><i class="fa fa-map-marker"></i> Montreal, Quebec</p>
+											</div>
 										</div>
-										<div class="timeline-body">
-											<h4>Web Software Developer Intern</h4>
-											<p><i class="fa fa-file-code-o"></i> JSP, Adobe Experience Manager, IntelliJ IDEA, JIRA, Crucible, Maven, Git, BitBucket</p>
-											<p><i class="fa fa-clock-o"></i> May 2014 - August 2014</p>
-											<p><i class="fa fa-map-marker"></i> Montreal, Quebec</p>
-										</div>
-									</div>
-								</li>
+									</li>
 
-								<!-- ERP Guru -->
-								<li class="timeline-inverted">
-									<div class="timeline-badge"><i class="fa fa-database"></i></div>
-									<div class="timeline-panel">
-										<div class="timeline-heading">
-											<h3 class="timeline-title">ERP Guru</h3>
-											<hr>
+									<!-- ERP Guru -->
+									<li class="timeline-inverted">
+										<div class="timeline-badge"><i class="fa fa-database"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">ERP Guru</h3>
+												<hr>
+											</div>
+											<div class="timeline-body">
+												<h4>Consultant ERP/CRM Intern</h4>
+												<p><i class="fa fa-file-code-o"></i> JavaScript, HTML, CSS, NetSuite, SVN</p>
+												<p><i class="fa fa-clock-o"></i> September 2013 - December 2013</p>
+												<p><i class="fa fa-map-marker"></i> Montreal, Quebec</p>
+											</div>
 										</div>
-										<div class="timeline-body">
-											<h4>Consultant ERP/CRM Intern</h4>
-											<p><i class="fa fa-file-code-o"></i> JavaScript, HTML, CSS, NetSuite, SVN</p>
-											<p><i class="fa fa-clock-o"></i> September 2013 - December 2013</p>
-											<p><i class="fa fa-map-marker"></i> Montreal, Quebec</p>
-										</div>
-									</div>
-								</li>
+									</li>
 
-							</ul>
+								</ul>
+							</div>
+
 						</div>
-
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-	</section>
 
 
-	<!-- Projects -->
-	<section id="projects">
+		<!-- Projects -->
 		<div class="section">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-12">
-						<h1>Projects</h1>
+			<section>
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12">
+							<h1>Projects</h1>
 
 
-						<div class="flexslider">
-							<ul class="slides">
+							<div class="flexslider">
+								<ul class="slides">
 
-								<li>
-									<img src="assets/images/mchacks-2016-logo-2.png" alt>
-									<h3>McHacks 2016</h3>
-								</li>
+									<li>
+										<img src="assets/images/mchacks-2016-logo-2.png" alt>
+										<h3>McHacks 2016</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/conuhacks-2016-logo-transparent.png" alt>
-									<h3>ConUHacks 2016</h3>
-								</li>
+									<li>
+										<img src="assets/images/conuhacks-2016-logo-transparent.png" alt>
+										<h3>ConUHacks 2016</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/unity-logo.png" alt>
-									<h3>Soul Food</h3>
-								</li>
+									<li>
+										<img src="assets/images/unity-logo.png" alt>
+										<h3>Soul Food</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/android-robot.png" alt>
-									<h3>Grade Calculator</h3>
-								</li>
+									<li>
+										<img src="assets/images/android-robot.png" alt>
+										<h3>Grade Calculator</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/android-robot.png" alt>
-									<h3>Tutoring Service</h3>
-								</li>
+									<li>
+										<img src="assets/images/android-robot.png" alt>
+										<h3>Tutoring Service</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/unity-logo.png" alt>
-									<h3>Hungover</h3>
-								</li>
+									<li>
+										<img src="assets/images/unity-logo.png" alt>
+										<h3>Hungover</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/xamarin-logo.png" alt>
-									<h3>CocoMaps</h3>
-								</li>
+									<li>
+										<img src="assets/images/xamarin-logo.png" alt>
+										<h3>CocoMaps</h3>
+									</li>
 
-								<li>
-									<img src="assets/images/cpp-logo.png" alt>
-									<h3>Cats vs. Dogs</h3>
-								</li>
+									<li>
+										<img src="assets/images/cpp-logo.png" alt>
+										<h3>Cats vs. Dogs</h3>
+									</li>
 
-							</ul>
+								</ul>
+							</div>
+
 						</div>
-
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-	</section>
+	</div>
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/0.1.12/jquery.scrollify.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.min.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/vendors/jquery.slimscroll.js"></script>
 	<script src="assets/scripts/portfolio.js" type="text/javascript"></script>
-	
+
 </body>
 </html>

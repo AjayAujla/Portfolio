@@ -1,28 +1,19 @@
-//jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-	var offsetFromTop = $(".navbar").offset().top;
+$(document).ready(function() {
+	
+	$('#fullpage').fullpage({
+		anchors:['profile', 'education', 'career', 'projects'],
 
-	if (offsetFromTop > 50) { // scrolled 50px away from top
-		$(".navbar-fixed-top").addClass("top-nav-collapse");
-		$(".navbar-fixed-top").removeClass("navbar-transparent");
-	} else { // within 50px from top
-		$(".navbar-fixed-top").removeClass("top-nav-collapse");
-		$(".navbar-fixed-top").addClass("navbar-transparent");
-	}
-});
-
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-	$('a.page-scroll').bind('click', function(event) {
-		var $anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1500, 'easeInOutExpo');
-		event.preventDefault();
+		onLeave: function(index, nextIndex, direction) {
+			if(nextIndex == 1) {
+				$(".navbar-fixed-top").removeClass("top-nav-collapse");
+				$(".navbar-fixed-top").addClass("navbar-transparent");
+			} else {
+				$(".navbar-fixed-top").addClass("top-nav-collapse");
+				$(".navbar-fixed-top").removeClass("navbar-transparent");
+			}
+		}
 	});
-});
 
-$(window).load(function() {
 	$('.flexslider').flexslider({
 		animation: "slide",
 		animationLoop: true,
@@ -33,12 +24,3 @@ $(window).load(function() {
 		slideshow: false
 	});
 });
-
-/*
-$(function() {
-	$.scrollify({
-		section: ".section",
-		scrollbars: false,
-	});
-});
-*/
