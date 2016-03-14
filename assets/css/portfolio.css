@@ -1,6 +1,4 @@
 /*
-https://coolors.co/app/2a9cbf-222222-cc8347-edd5a3-f9ddd4
-
 $grey: #9d9d9d;
 $white: #ffffff;
 $black: #222222;
@@ -10,97 +8,28 @@ $blue3: #0062FF;
 $blue4: #0087C8;
 */
 
-.navbar.navbar-inverse.navbar-static-top {
-	//background-color: transparent;
-	border-color: rgba(255, 255, 255, 0.3);
-}
-
 body {
 	background: url('../images/ceystalhorizon.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	color: #ffffff !important;
-	font-family: 'Quicksand', sans-serif !important;
-}
-
-#profile {
-	padding-top: 125px;
-}
-
-#profile .img-circle {
-	max-width: 200px;
-	border-radius: 50%;
-}
-
-.item {
-	padding-bottom: 100px;
-}
-
-#profile h1 {
-	font-size: 4em;
-}
-
-#social {
-	padding-top: 25px;
-}
-
-.social-buttons a {
 	color: #ffffff;
-	display: block;
-	background-color: #222222;
-	height: 40px;
-	width: 40px;
-	border-radius: 100%;
-	line-height: 40px;
-}
-
-.social-buttons a:focus, a:hover i {
-	color:#9d9d9d !important;
-	transform: scale(1.25);
-	transition: transform .5s ease-in-out; 
-}
-
-a .fa-chevron-down {
-	color: #222222;
-	font-size: 3em;
-}
-
-a .fa-chevron-down:focus, a .fa-chevron-down:hover {
-	color:#9d9d9d !important;
-}
-
-.section {
-	//padding-top: 50px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .section h1 {
 	font-size: 4em;
 	margin-top: 75px;
-	margin-bottom: 50px;
 }
 
-.timeline {
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
-.timeline .timeline-badge {
-	background-color: #222222 !important;
-}
-
-.text-vertical-center {
-	text-align: center;
-	vertical-align: middle;
-}
-
+/* Navbar */
 @media(min-width:767px) {
 	.navbar {
 		padding: 15px 0;
-		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-		transition: background .5s ease-in-out,padding .5s ease-in-out;
+		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		transition: background .5s ease-in-out, padding .5s ease-in-out;
 	}
 
 	.top-nav-collapse {
@@ -123,37 +52,78 @@ a .fa-chevron-down:focus, a .fa-chevron-down:hover {
 	color: #9d9d9d !important;
 }
 
-
-.flexslider {
-	border:none !important;
-	box-shadow:none !important;
-	background: transparent !important;
-	border-width: 0px !important;
-	width:100%
+/* Profile */
+.profile {
+	padding-top: 125px;
+	vertical-align: middle;
 }
 
-.flexslider img {
+.profile h1 {
+	font-size: 4em;
+}
+
+.profile .img-circle {
+	max-width: 200px;
+	border-radius: 50%;
+}
+
+.profile .social {
+	padding-top: 25px;
+}
+
+.profile .social a {
+	color: #ffffff;
+	display: block;
+	background-color: #222222;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	line-height: 40px;
+}
+
+.profile .social a:focus, a:hover i {
+	color: #9d9d9d;
+	transform: scale(1.25);
+	transition: transform .5s ease-in-out; 
+}
+
+/* Education */
+/* Career */
+.timeline {
+	margin-top: 125px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.timeline .timeline-badge {
+	background-color: #222222 !important;
+}
+
+/* Projects */
+.fp-tableCell {
+	vertical-align: middle;
+}
+
+#fp-nav ul li a span {
+	background: #ffffff;
+}
+
+.fp-controlArrow.fp-next {
+	border-left-color: #222222;
+}
+
+.fp-controlArrow.fp-prev {
+	border-right-color: #222222;
+}
+
+.slide img {
 	max-width: 300px;
 	max-height: 300px;
 	padding: 25px;
 }
 
-.flexslider .slides img {
-	display: inline-block !important;
+/*
+.fp-slides {
+	margin-top: -100px;
 }
-
-.flex-control-paging li a {
-	background: #222222 !important;
-}
-
-.flex-control-paging li a.flex-active {
-	background: #ffffff !important;
-}
-
-.flex-prev, .flex-next {
-	color: #222222 !important;
-}
-
-.flex-direction-nav a {
-	height: 50px !important;
-}
+*/

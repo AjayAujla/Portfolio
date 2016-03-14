@@ -1,10 +1,11 @@
 $(document).ready(function() {
-	
+
 	$('#fullpage').fullpage({
-		anchors:['profile', 'education', 'career', 'projects'],
+		anchors: ['profile', 'education', 'career', 'projects'],
+		navigation: true,
 
 		onLeave: function(index, nextIndex, direction) {
-			if(nextIndex == 1) {
+			if(nextIndex == 1) { // going to first page
 				$(".navbar-fixed-top").removeClass("top-nav-collapse");
 				$(".navbar-fixed-top").addClass("navbar-transparent");
 			} else {
@@ -14,13 +15,4 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.flexslider').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		direction: "horizontal",
-		controlNav: true,
-		directionNav: true,
-		keyboard: true,
-		slideshow: false
-	});
 });
