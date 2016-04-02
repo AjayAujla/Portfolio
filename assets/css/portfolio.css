@@ -27,8 +27,6 @@ body {
 @media(min-width:767px) {
 	.navbar {
 		padding: 15px 0;
-		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
 		transition: background .5s ease-in-out, padding .5s ease-in-out;
 	}
 
@@ -83,14 +81,12 @@ body {
 
 .profile .social a:focus, a:hover i {
 	color: #9d9d9d;
-	transform: scale(1.25);
-	transition: transform .5s ease-in-out; 
 }
 
 /* Education */
 /* Career */
 .timeline {
-	margin-top: 125px;
+	margin-top: 50px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
