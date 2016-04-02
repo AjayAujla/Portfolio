@@ -3,6 +3,7 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		anchors: ['profile', 'education', 'career', 'projects'],
 		navigation: true,
+		menu: '#menu',
 
 		onLeave: function(index, nextIndex, direction) {
 			if(nextIndex == 1) { // going to first page

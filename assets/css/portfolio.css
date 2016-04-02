@@ -104,7 +104,6 @@ body {
 .fp-controlArrow {
 	position: absolute;
 	height: 50px;
-	z-index: 4;
 	top: 50%;
 	border: 0px;
 }
