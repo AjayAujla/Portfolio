@@ -22,3 +22,10 @@ Currently, the data specified in the website is hard-coded (such as project deta
 | ---------- | ------- |
 | Bootstrap | 3.3.6 |
 | jQuery | 2.2.1 |
+
+### Tools
+
+| Tool | Version |
+| ---- | ------- |
+| Sublime Text | 3 |
+| Adobe Photoshop | CS6 |

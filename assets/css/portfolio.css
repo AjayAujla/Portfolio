@@ -1,6 +1,6 @@
 /*
-$grey: #9d9d9d;
-$white: #ffffff;
+$grey: #9D9D9D;
+$white: #FFFFFF;
 $black: #222222;
 $blue1: #0087FF;
 $blue2: #0099FF;
@@ -9,12 +9,9 @@ $blue4: #0087C8;
 */
 
 body {
-	background: url('../images/ceystalhorizon.png') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background: url('../images/background.png') no-repeat center center fixed;
 	background-size: cover;
-	color: #ffffff;
+	color: #FFFFFF;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -43,11 +40,11 @@ body {
 }
 
 .navbar a {
-	color: #ffffff !important;
+	color: #FFFFFF !important;
 }
 
 .navbar a:hover, a:focus {
-	color: #9d9d9d !important;
+	color: #9D9D9D !important;
 }
 
 /* Profile */
@@ -70,7 +67,7 @@ body {
 }
 
 .profile .social a {
-	color: #ffffff;
+	color: #FFFFFF;
 	display: block;
 	background-color: #222222;
 	height: 40px;
@@ -80,7 +77,7 @@ body {
 }
 
 .profile .social a:focus, a:hover i {
-	color: #9d9d9d;
+	color: #9D9D9D;
 }
 
 /* Education */
@@ -101,15 +98,27 @@ body {
 }
 
 #fp-nav ul li a span {
-	background: #ffffff;
+	background: #FFFFFF;
 }
 
-.fp-controlArrow.fp-next {
-	border-left-color: #222222;
+.fp-controlArrow {
+	position: absolute;
+	height: 50px;
+	z-index: 4;
+	top: 50%;
+	border: 0px;
 }
 
 .fp-controlArrow.fp-prev {
-	border-right-color: #222222;
+	left: 0;
+	width: 50px;
+	background: url('../images/fa-angle-left.png') no-repeat;
+}
+
+.fp-controlArrow.fp-next {
+	right: 0;
+	width: 50px;
+	background: url('../images/fa-angle-right.png') no-repeat;
 }
 
 .slide img {
