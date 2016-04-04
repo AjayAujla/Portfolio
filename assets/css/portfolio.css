@@ -83,7 +83,7 @@ body {
 /* Education */
 /* Career */
 .timeline {
-	margin-top: 50px;
+	margin-bottom: 75px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
@@ -93,18 +93,12 @@ body {
 }
 
 /* Projects */
-.fp-tableCell {
-	vertical-align: middle;
-}
-
 #fp-nav ul li a span {
 	background: #FFFFFF;
 }
 
 .fp-controlArrow {
-	position: absolute;
 	height: 50px;
-	top: 50%;
 	border: 0px;
 }
 
@@ -118,6 +112,10 @@ body {
 	right: 0;
 	width: 50px;
 	background: url('../images/fa-angle-right.png') no-repeat;
+}
+
+.fp-slides {
+	margin-top: -75px;
 }
 
 .slide img {
