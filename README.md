@@ -1,5 +1,7 @@
 # Portfolio
 
+![portfolio](https://cloud.githubusercontent.com/assets/6827852/14239609/6ecd3556-fa0b-11e5-93d3-16d6eee2e41b.png)
+
 ### Purpose
 
 This personal portfolio showcases academic and professional accomplishments. It exhibits various internships and projects completed as I pursued my software engineering degree.
