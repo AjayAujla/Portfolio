@@ -81,9 +81,9 @@ body {
 }
 
 .verticallycentered {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
 }
 
 /* Education */
@@ -130,9 +130,3 @@ body {
 	max-height: 300px;
 	padding: 25px;
 }
-
-/*
-.fp-slides {
-	margin-top: -100px;
-}
-*/

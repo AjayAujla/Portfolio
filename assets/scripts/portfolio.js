@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('#fullpage').fullpage({
-		anchors: ['profile', 'education', 'career', 'projects'],
+		anchors: ['profile', 'about-me', 'skills', 'education', 'career', 'projects'],
 		navigation: true,
 		menu: '#menu',
 
