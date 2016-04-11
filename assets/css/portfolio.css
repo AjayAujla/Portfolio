@@ -1,0 +1,140 @@
+/*
+$black: #222222;
+*/
+
+body {
+	background: url('../images/background.png') no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.section h1 {
+	font-size: 4em;
+	margin-top: 75px;
+}
+
+/* Navbar */
+@media(min-width:767px) {
+	.navbar {
+		padding: 15px 0;
+		transition: background .5s ease-in-out, padding .5s ease-in-out;
+	}
+
+	.top-nav-collapse {
+		padding: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-transparent {
+		background-color: transparent !important;
+		border-color: transparent !important;
+	}
+}
+
+.navbar a {
+	color: white !important;
+}
+
+.navbar a:hover, a:focus {
+	color: gray !important;
+}
+
+/* Profile */
+.profile {
+	padding-top: 125px;
+	vertical-align: middle;
+}
+
+.profile h1 {
+	font-size: 4em;
+}
+
+.profile .img-circle {
+	max-width: 200px;
+	border-radius: 50%;
+}
+
+.round-button {
+	padding-top: 25px;
+}
+
+.round-button a {
+	color: white;
+	display: block;
+	background-color: #222222;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	line-height: 40px;
+}
+
+.round-button a:focus, a:hover i {
+	color: gray;
+}
+
+.verticallycentered {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+/* Education */
+/* Career */
+.timeline {
+	margin-bottom: 75px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.timeline .timeline-badge {
+	background-color: #222222 !important;
+}
+
+/* Projects */
+#fp-nav ul li a span {
+	background: white;
+}
+
+.fp-controlArrow {
+	height: 50px;
+	border: 0px;
+	margin-top: 0px;
+}
+
+.fp-controlArrow.fp-prev {
+	/*left: -25px;*/
+	width: 50px;
+	background: url('../images/fa-angle-left.png') no-repeat;
+}
+
+.fp-controlArrow.fp-next {
+	/*right: -25px;*/
+	width: 50px;
+	background: url('../images/fa-angle-right.png') no-repeat;
+}
+
+.fp-slides {
+	margin-top: -75px;
+}
+
+.slide img {
+	max-width: 300px;
+	max-height: 300px;
+	padding: 25px;
+}
+
+.projects .slide a, i {
+	/*color: white !important;*/
+}
+
+.progress {
+	background-color: white;
+}
+
+.progress-bar {
+	background-color:#222222;
+	text-align: left;
+	padding-left: 10px;
+}

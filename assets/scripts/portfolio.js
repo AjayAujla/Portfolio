@@ -1,0 +1,49 @@
+$(document).ready(function() {
+
+	var currentIndex = 1;
+	var sectionAnchors = ['profile', 'about-me', 'skills', 'education', 'career', 'projects'];
+	var sectionNames = ['Profile', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
+
+	var loadedProgressBars = false;
+
+	$('#fullpage').fullpage({
+		anchors: sectionAnchors,
+		navigation: true,
+		navigationTooltips: sectionNames,
+		menu: '#menu',
+
+		afterLoad: function(anchorLink, index) {
+			currentIndex = index;
+
+			if(anchorLink == 'skills' && !loadedProgressBars) {
+				
+				$('.progress .progress-bar').each(function() {
+					var progressBarValue = $(this).attr('aria-valuenow') + '%';                
+					$(this).animate(
+						{ width: progressBarValue }, 
+						{ duration: 150, easing: 'easeOutExpo' }
+						);
+				});
+
+				loadedProgressBars = true;
+			}
+		},
+
+		onLeave: function(index, nextIndex, direction) {
+			if(nextIndex == 1) { // going to first page
+				$('.navbar-fixed-top').removeClass('top-nav-collapse');
+				$('.navbar-fixed-top').addClass('navbar-transparent');
+			} else {
+				$('.navbar-fixed-top').addClass('top-nav-collapse');
+				$('.navbar-fixed-top').removeClass('navbar-transparent');
+			}
+		},
+
+	});
+
+	if(currentIndex == 1) {
+		$('#fullpage').fullpage.silentMoveTo(2);
+		$('#fullpage').fullpage.silentMoveTo(1);
+	}
+
+});
