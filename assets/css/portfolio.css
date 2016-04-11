@@ -60,11 +60,11 @@ body {
 	border-radius: 50%;
 }
 
-.profile .social {
+.round-button {
 	padding-top: 25px;
 }
 
-.profile .social a {
+.round-button a {
 	color: white;
 	display: block;
 	background-color: #222222;
@@ -74,7 +74,7 @@ body {
 	line-height: 40px;
 }
 
-.profile .social a:focus, a:hover i {
+.round-button a:focus, a:hover i {
 	color: gray;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .projects .slide a, i {
-	color: white !important;
+	/*color: white !important;*/
 }
 
 .progress {
