@@ -1,9 +1,18 @@
 $(document).ready(function() {
 
+	var currentIndex = 1;
+	var sectionAnchors = ['profile', 'about-me', 'skills', 'education', 'career', 'projects'];
+	var sectionNames = ['Profile', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
+
 	$('#fullpage').fullpage({
-		anchors: ['profile', 'about-me', 'skills', 'education', 'career', 'projects'],
+		anchors: sectionAnchors,
 		navigation: true,
+		navigationTooltips: sectionNames,
 		menu: '#menu',
+
+		afterLoad: function(anchorLink, index) {
+			currentIndex = index;
+		},
 
 		onLeave: function(index, nextIndex, direction) {
 			if(nextIndex == 1) { // going to first page
@@ -13,7 +22,13 @@ $(document).ready(function() {
 				$(".navbar-fixed-top").addClass("top-nav-collapse");
 				$(".navbar-fixed-top").removeClass("navbar-transparent");
 			}
-		}
+		},
+
 	});
+
+	if(currentIndex == 1) {
+		$('#fullpage').fullpage.silentMoveTo(2);
+		$('#fullpage').fullpage.silentMoveTo(1);
+	}
 
 });
