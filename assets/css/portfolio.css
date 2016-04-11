@@ -130,7 +130,7 @@ body {
 }
 
 .progress {
-	/*background-color: transparent;*/
+	background-color: white;
 }
 
 .progress-bar {

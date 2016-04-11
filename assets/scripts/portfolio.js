@@ -4,6 +4,8 @@ $(document).ready(function() {
 	var sectionAnchors = ['profile', 'about-me', 'skills', 'education', 'career', 'projects'];
 	var sectionNames = ['Profile', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
 
+	var loadedProgressBars = false;
+
 	$('#fullpage').fullpage({
 		anchors: sectionAnchors,
 		navigation: true,
@@ -12,6 +14,19 @@ $(document).ready(function() {
 
 		afterLoad: function(anchorLink, index) {
 			currentIndex = index;
+
+			if(anchorLink == 'skills' && !loadedProgressBars) {
+				
+				$('.progress .progress-bar').each(function() {
+					var progressBarValue = $(this).attr('aria-valuenow') + '%';                
+					$(this).animate(
+						{ width: progressBarValue }, 
+						{ duration: 150, easing: 'easeOutExpo' }
+						);
+				});
+
+				loadedProgressBars = true;
+			}
 		},
 
 		onLeave: function(index, nextIndex, direction) {
