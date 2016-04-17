@@ -11,6 +11,7 @@ $(document).ready(function() {
 		navigation: true,
 		navigationTooltips: sectionNames,
 		menu: '#menu',
+		recordHistory: false,
 
 		afterLoad: function(anchorLink, index) {
 			currentIndex = index;
