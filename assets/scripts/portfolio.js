@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	var currentIndex = 1;
 	var sectionAnchors = ['profile', 'about-me', 'skills', 'education', 'career', 'projects'];
-	var sectionNames = ['Profile', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
+	var sectionNames = ['', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
 
 	var loadedProgressBars = false;
 
