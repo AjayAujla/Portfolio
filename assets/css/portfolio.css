@@ -37,8 +37,20 @@ body {
 	color: white !important;
 }
 
-.navbar a:hover, a:focus {
-	color: gray !important;
+.navbar a:hover {
+	color: #929191 !important;
+}
+
+.navbar-social a:hover i {
+	color: #929191 !important;
+}
+
+#fp-nav ul li a {
+	background: transparent;
+}
+
+#fp-nav ul li a span {
+	background: white;
 }
 
 /* Profile */
@@ -70,8 +82,12 @@ body {
 	line-height: 40px;
 }
 
-.round-button a:focus, a:hover i {
-	color: gray;
+.round-button a:hover {
+	background-color: white;
+}
+
+.round-button a:hover i {
+	color: #222222;
 }
 
 .verticallycentered {
@@ -93,10 +109,6 @@ body {
 }
 
 /* Projects */
-#fp-nav ul li a span {
-	background: white;
-}
-
 .fp-controlArrow {
 	height: 50px;
 	border: 0px;
