@@ -8,6 +8,16 @@ This personal portfolio showcases academic and professional accomplishments. It 
 
 A minimalist, full-page, responsive website using Bootstrap. The website was conceptualized and realized by myself. 
 
+### Contents
+
+The following files account for the overall format, design, and developed functionality of the web page.
+
+[index.html](index.html) houses the HTML structure of the web page.
+
+[assets/css/portfolio.css](assets/css/portfolio.css) contains the various styling effects applied to the web page.
+
+[assets/scripts/portfolio.js](assets/scripts/portfolio.js) specifies programmed behavior within the web page.
+
 ### Inspiration
 
 Scouring the Internet in search of Bootstrap templates and personal portfolios by other software engineering students in order to generate design ideas for this website.
