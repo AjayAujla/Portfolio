@@ -1,5 +1,7 @@
 # Portfolio
 
+[ajayaujla.github.io/Portfolio](http://ajayaujla.github.io/Portfolio)
+
 ### Purpose
 
 This personal portfolio showcases academic and professional accomplishments. It exhibits various internships and projects completed as I pursued my software engineering degree.
