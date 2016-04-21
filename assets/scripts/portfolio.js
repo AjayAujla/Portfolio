@@ -1,8 +1,9 @@
 $(document).ready(function() {
 
 	var currentIndex = 1;
+	
 	var sectionAnchors = ['profile', 'about-me', 'skills', 'education', 'career', 'projects'];
-	var sectionNames = ['Profile', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
+	var sectionNames = ['', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
 
 	var loadedProgressBars = false;
 
@@ -11,10 +12,12 @@ $(document).ready(function() {
 		navigation: true,
 		navigationTooltips: sectionNames,
 		menu: '#menu',
+		recordHistory: false,
 
 		afterLoad: function(anchorLink, index) {
 			currentIndex = index;
 
+			/* animates progress bars in Skills section upon first load of that section */
 			if(anchorLink == 'skills' && !loadedProgressBars) {
 				
 				$('.progress .progress-bar').each(function() {
@@ -30,6 +33,8 @@ $(document).ready(function() {
 		},
 
 		onLeave: function(index, nextIndex, direction) {
+
+			/* renders navbar transparent if scrolling towards landing page */
 			if(nextIndex == 1) { // going to first page
 				$('.navbar-fixed-top').removeClass('top-nav-collapse');
 				$('.navbar-fixed-top').addClass('navbar-transparent');
@@ -41,6 +46,7 @@ $(document).ready(function() {
 
 	});
 
+	/* ensures page always reloads to landing page */
 	if(currentIndex == 1) {
 		$('#fullpage').fullpage.silentMoveTo(2);
 		$('#fullpage').fullpage.silentMoveTo(1);
