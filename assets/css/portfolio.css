@@ -1,5 +1,6 @@
 /*
 $black: #222222;
+$grey: #929191;
 */
 
 body {
@@ -7,6 +8,16 @@ body {
 	background-size: cover;
 	color: white;
 	font-family: 'Quicksand', sans-serif;
+}
+
+a, a:focus {
+	color: #222222;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
 }
 
 .section h1 {
