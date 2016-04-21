@@ -1,5 +1,7 @@
 # Portfolio
 
+[ajayaujla.github.io/Portfolio](http://ajayaujla.github.io/Portfolio)
+
 ### Purpose
 
 This personal portfolio showcases academic and professional accomplishments. It exhibits various internships and projects completed as I pursued my software engineering degree.
@@ -7,6 +9,16 @@ This personal portfolio showcases academic and professional accomplishments. It 
 ### Design
 
 A minimalist, full-page, responsive website using Bootstrap. The website was conceptualized and realized by myself. 
+
+### Contents
+
+The following files account for the overall format, design, and developed functionality of the web page.
+
+[index.html](index.html) houses the HTML structure of the web page.
+
+[assets/css/portfolio.css](assets/css/portfolio.css) contains the various styling effects applied to the web page.
+
+[assets/scripts/portfolio.js](assets/scripts/portfolio.js) specifies programmed behavior within the web page.
 
 ### Inspiration
 
