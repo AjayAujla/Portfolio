@@ -7,6 +7,9 @@ http://bootsnipp.com/snippets/yGbV
 	list-style: none;
 	padding: 20px 0 20px;
 	position: relative;
+	margin-bottom: 75px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .timeline:before {
@@ -15,7 +18,7 @@ http://bootsnipp.com/snippets/yGbV
 	position: absolute;
 	content: " ";
 	width: 3px;
-	background-color: #eeeeee;
+	background-color: white;
 	left: 50%;
 	margin-left: -1.5px;
 }
@@ -35,20 +38,10 @@ http://bootsnipp.com/snippets/yGbV
 	clear: both;
 }
 
-.timeline > li:before,
-.timeline > li:after {
-	content: " ";
-	display: table;
-}
-
-.timeline > li:after {
-	clear: both;
-}
-
 .timeline > li > .timeline-panel {
 	width: 46%;
 	float: left;
-	border: 1px solid #d4d4d4;
+	border: 1px solid white;
 	border-radius: 2px;
 	padding: 20px;
 	position: relative;
@@ -62,8 +55,8 @@ http://bootsnipp.com/snippets/yGbV
 	right: -15px;
 	display: inline-block;
 	border-top: 15px solid transparent;
-	border-left: 15px solid #ccc;
-	border-right: 0 solid #ccc;
+	border-left: 15px solid white;
+	border-right: 0 solid white;
 	border-bottom: 15px solid transparent;
 	content: " ";
 }
@@ -74,14 +67,14 @@ http://bootsnipp.com/snippets/yGbV
 	right: -14px;
 	display: inline-block;
 	border-top: 14px solid transparent;
-	border-left: 14px solid #fff;
-	border-right: 0 solid #fff;
+	border-left: 14px solid white;
+	border-right: 0 solid white;
 	border-bottom: 14px solid transparent;
 	content: " ";
 }
 
 .timeline > li > .timeline-badge {
-	color: #fff;
+	color: white;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -91,7 +84,7 @@ http://bootsnipp.com/snippets/yGbV
 	top: 16px;
 	left: 50%;
 	margin-left: -25px;
-	background-color: #999999;
+	background-color: white;
 	z-index: 100;
 	border-top-right-radius: 50%;
 	border-top-left-radius: 50%;
@@ -117,31 +110,9 @@ http://bootsnipp.com/snippets/yGbV
 	right: auto;
 }
 
-.timeline-badge.primary {
-	background-color: #2e6da4 !important;
+.timeline-badge {
+	background-color: #222222;
 }
-
-.timeline-badge.secondary {
-	background-color: #3f903f !important;
-}
-
-.timeline-badge.tertiary {
-	background-color: #f0ad4e !important;
-}
-
-.timeline-badge.quaternary {
-	background-color: #d9534f !important;
-}
-
-.timeline-badge.quinary {
-	background-color: #5bc0de !important;
-}
-
-/*
-.timeline-badge:hover {
-    color: #5bc0de !important;
-}
-*/
 
 .timeline-title {
 	margin-top: 0;

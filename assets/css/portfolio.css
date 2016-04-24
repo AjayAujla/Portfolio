@@ -1,4 +1,5 @@
 /*
+$white: white;
 $black: #222222;
 $grey: #929191;
 */
@@ -10,6 +11,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
+/* Hyperlinks */
 a, a:focus {
 	color: #222222;
 	text-decoration: none;
@@ -20,9 +22,27 @@ a:hover {
 	text-decoration: none;
 }
 
-.section h1 {
-	font-size: 4em;
-	margin-top: 75px;
+/* Round Button */
+.round-button {
+	padding-top: 25px;
+}
+
+.round-button a {
+	color: white;
+	display: block;
+	background-color: #222222;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	line-height: 40px;
+}
+
+.round-button a:hover {
+	background-color: white;
+}
+
+.round-button a:hover i {
+	color: #222222;
 }
 
 /* Navbar */
@@ -64,6 +84,12 @@ a:hover {
 	background: white;
 }
 
+/* Sections */
+.section h1 {
+	font-size: 4em;
+	margin-top: 75px;
+}
+
 /* Profile */
 .profile {
 	padding-top: 125px;
@@ -79,44 +105,15 @@ a:hover {
 	border-radius: 50%;
 }
 
-.round-button {
-	padding-top: 25px;
-}
-
-.round-button a {
-	color: white;
-	display: block;
-	background-color: #222222;
-	height: 40px;
-	width: 40px;
-	border-radius: 100%;
-	line-height: 40px;
-}
-
-.round-button a:hover {
+/* Skills */
+.progress {
 	background-color: white;
 }
 
-.round-button a:hover i {
-	color: #222222;
-}
-
-.verticallycentered {
-	display: inline-block;
-	vertical-align: middle;
-	float: none;
-}
-
-/* Education */
-/* Career */
-.timeline {
-	margin-bottom: 75px;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
-.timeline .timeline-badge {
-	background-color: #222222 !important;
+.progress-bar {
+	background-color:#222222;
+	text-align: left;
+	padding-left: 10px;
 }
 
 /* Projects */
@@ -146,18 +143,4 @@ a:hover {
 	max-width: 300px;
 	max-height: 300px;
 	padding: 25px;
-}
-
-.projects .slide a, i {
-	/*color: white !important;*/
-}
-
-.progress {
-	background-color: white;
-}
-
-.progress-bar {
-	background-color:#222222;
-	text-align: left;
-	padding-left: 10px;
 }
