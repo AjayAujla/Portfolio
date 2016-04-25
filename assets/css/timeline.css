@@ -84,7 +84,7 @@ http://bootsnipp.com/snippets/yGbV
 	top: 16px;
 	left: 50%;
 	margin-left: -25px;
-	background-color: white;
+	background-color: #222222;
 	z-index: 100;
 	border-top-right-radius: 50%;
 	border-top-left-radius: 50%;
@@ -108,10 +108,6 @@ http://bootsnipp.com/snippets/yGbV
 	border-right-width: 14px;
 	left: -14px;
 	right: auto;
-}
-
-.timeline-badge {
-	background-color: #222222;
 }
 
 .timeline-title {
