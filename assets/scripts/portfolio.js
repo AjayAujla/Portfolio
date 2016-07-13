@@ -2,8 +2,8 @@ $(document).ready(function() {
 
 	var currentIndex = 1;
 	
-	var sectionAnchors = ['profile', 'about-me', 'skills', 'education', 'career', 'projects'];
-	var sectionNames = ['', 'About Me', 'Skills', 'Education', 'Career', 'Projects']
+	var sectionAnchors = ['profile', 'about-me', 'skills', 'career', 'education', 'projects'];
+	var sectionNames = ['', 'About Me', 'Skills', 'Career', 'Education', 'Projects']
 
 	var loadedProgressBars = false;
 
