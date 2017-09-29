@@ -2,8 +2,8 @@ $(document).ready(function() {
 
 	var currentIndex = 1;
 	
-	var sectionAnchors = ['profile', 'about-me', 'skills', 'career', 'education', 'projects'];
-	var sectionNames = ['', 'About Me', 'Skills', 'Career', 'Education', 'Projects']
+	var sectionAnchors = ['profile', 'about-me', 'qualifications', 'career', 'education', 'projects'];
+	var sectionNames = ['', 'About Me', 'Qualifications', 'Career', 'Education', 'Projects']
 
 	var loadedProgressBars = false;
 
@@ -17,8 +17,8 @@ $(document).ready(function() {
 		afterLoad: function(anchorLink, index) {
 			currentIndex = index;
 
-			/* animates progress bars in Skills section upon first load of that section */
-			if(anchorLink == 'skills' && !loadedProgressBars) {
+			/* animates progress bars in Qualifications section upon first load of that section */
+			if(anchorLink == 'qualifications' && !loadedProgressBars) {
 				
 				$('.progress .progress-bar').each(function() {
 					var progressBarValue = $(this).attr('aria-valuenow') + '%';                

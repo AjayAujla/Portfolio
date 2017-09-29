@@ -6,9 +6,9 @@
 
 [index.html](index.html) houses the HTML structure of the web page.
 
-[assets/css/portfolio.css](assets/css/portfolio.css) contains the various styling effects applied to the web page.
+[styles/style.css](styles/style.css) contains the various styling effects applied to the web page.
 
-[assets/scripts/portfolio.js](assets/scripts/portfolio.js) specifies programmed behavior within the web page.
+[scripts/script.js](scripts/script.js) specifies programmed behavior within the web page.
 
 ### Technologies
 
