@@ -76,6 +76,14 @@ a:hover {
 	color: #929191 !important;
 }
 
+.navbar, .navbar-transparent a:hover {
+	color: #222222 !important;
+}
+
+.navbar-social, .navbar-transparent a:hover i {
+	color: #222222 !important;
+}
+
 #fp-nav ul li a {
 	background: transparent;
 }

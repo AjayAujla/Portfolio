@@ -25,7 +25,7 @@ $(document).ready(function() {
 					$(this).animate(
 						{ width: progressBarValue }, 
 						{ duration: 150, easing: 'easeOutExpo' }
-						);
+					);
 				});
 
 				loadedProgressBars = true;
