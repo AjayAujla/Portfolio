@@ -1,7 +1,5 @@
 # Portfolio
 
-[ajayaujla.github.io/Portfolio](http://ajayaujla.github.io/Portfolio)
-
 ### Contents
 
 [index.html](index.html) houses the HTML structure of the web page.
@@ -16,6 +14,7 @@
 | ---------- | ------- | --- |
 | Bootstrap | 3.3.6 | Frontend framework |
 | jQuery | 2.2.1 | JavaScript library |
+| GoogleAnalytics | - | JavaScript library to measure user interaction |
 
 ### Tools
 
