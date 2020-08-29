@@ -1,0 +1,29 @@
+name: Update Portfolio
+
+on:
+  
+  workflow_dispatch:
+  
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Add Remotes
+        run: |
+          git remote add com https://github.com/AjayAujla/ajayaujla.com
+          git remote add io https://github.com/AjayAujla/ajayaujla.github.io
+
+      - name: Squash
+        run: |
+          git reset $(git commit-tree HEAD^{tree} -m "Initial commit")
+
+      - name: Update Remotes
+        run: |
+          git push -f com master
+          git push -f io master
