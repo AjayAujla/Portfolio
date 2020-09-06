@@ -21,7 +21,7 @@ jobs:
 
       - name: Add Remote
         run: |
-          git remote add io https://github.com/AjayAujla/ajayaujla.github.io
+          git remote add io git@github.com:AjayAujla/ajayaujla.github.io.git
 
       - name: Squash
         run: |
