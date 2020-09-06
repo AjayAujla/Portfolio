@@ -39,7 +39,6 @@ jobs:
 
       - name: Squash
         run: |
-          cd Portfolio
           git reset $(git commit-tree HEAD^{tree} -m "Initial commit")
           cd ..
 
