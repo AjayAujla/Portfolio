@@ -17,7 +17,8 @@ jobs:
         
       - name: Checkout Portfolio
         uses: actions/checkout@v2
-
+      
+      - run: cd ..
       - run: pwd
       - run: ls -a
         
@@ -27,6 +28,7 @@ jobs:
           repository: AjayAujla/ajayaujla.github.io
           token: ${{ secrets.API_TOKEN }}
       
+      - run: cd ..
       - run: pwd
       - run: ls -a
 
