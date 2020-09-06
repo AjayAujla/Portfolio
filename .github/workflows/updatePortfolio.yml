@@ -12,15 +12,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - run: pwd
       - name: Checkout Portfolio
         uses: actions/checkout@v2
 
+      - run: pwd
       - name: Checkout ajayaujla.github.io
         uses: actions/checkout@v2
         with:
           repository: AjayAujla/ajayaujla.github.io
           token: ${{ secrets.API_TOKEN }}
       
+      - run: pwd
+
 #       - name: Git Configuration
 #         run: |
 #           git config --global user.email "ajay.aujla@hotmail.com"
