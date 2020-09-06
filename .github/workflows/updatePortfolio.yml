@@ -12,21 +12,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Portfolio
+        uses: actions/checkout@v2
 
-      - name: Git Configuration
-        run: |
-          git config --global user.email "ajay.aujla@hotmail.com"
-          git config --global user.name "AjayAujla"
-
-      - name: Add Remote
-        run: |
-          git remote add io git@github.com:AjayAujla/ajayaujla.github.io.git
+      - name: Checkout ajayaujla.github.io
+        uses: actions/checkout@v2
+        with:
+          repository: ajayaujla.github.io
+          token: ${{ secrets.API_TOKEN }}
+      
+#       - name: Git Configuration
+#         run: |
+#           git config --global user.email "ajay.aujla@hotmail.com"
+#           git config --global user.name "AjayAujla"
 
       - name: Squash
         run: |
+          cd Portfolio
           git reset $(git commit-tree HEAD^{tree} -m "Initial commit")
+          cd ..
+
+      - name: Move Squashed
+        run: |
+          cd ajayaujla.github.io
+          rm -f "ajayaujla.github.io/{*,.*}" 
+          cd ..
+          mv Portfolio/!(git) ajayaujla.github.io/
 
       - name: Update Remote
         run: |
-          git push -f io HEAD:master
+          git push -f
