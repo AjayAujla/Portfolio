@@ -8,27 +8,25 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  run_update:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
 
       - name: Git Configuration
         run: |
           git config --global user.email "ajay.aujla@hotmail.com"
           git config --global user.name "AjayAujla"
 
-      - name: Add Remotes
+      - name: Add Remote
         run: |
-          git remote add com https://github.com/AjayAujla/ajayaujla.com
           git remote add io https://github.com/AjayAujla/ajayaujla.github.io
 
       - name: Squash
         run: |
           git reset $(git commit-tree HEAD^{tree} -m "Initial commit")
 
-      - name: Update Remotes
+      - name: Update Remote
         run: |
-          git push -f com master
           git push -f io master
