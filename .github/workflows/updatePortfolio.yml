@@ -18,7 +18,7 @@ jobs:
       - name: Checkout ajayaujla.github.io
         uses: actions/checkout@v2
         with:
-          repository: ajayaujla.github.io
+          repository: AjayAujla/ajayaujla.github.io
           token: ${{ secrets.API_TOKEN }}
       
 #       - name: Git Configuration
